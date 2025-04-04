@@ -1,19 +1,46 @@
-# Emotion-Recognition
-A real-time emotion detection system using webcam feed Built with TensorFlow/Keras and OpenCV
+# Real-Time Emotion Recognition System
 
-# Real-Time Emotion Recognition
+![Demo GIF](demo.gif) *(Add a demo GIF showing the system in action)*
 
-![Demo](demo.gif)
+A deep learning system that detects human emotions in real-time using webcam feed, built with TensorFlow/Keras and OpenCV.
 
-A system that detects emotions in real-time using webcam feed.
+## 📌 Features
+- Real-time face detection using Haar Cascades
+- 7 emotion classification (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral)
+- Webcam integration for Google Colab
+- Model saving/loading functionality
+- Clean, modular Python implementation
 
-## Features
-- Real-time face detection
-- 7 emotion classification :
-    ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
-- Webcam integration for Colab
-- Model saving/loading
+## 🗂️ Dataset Information
 
-## Installation
+### FER-2013 Dataset
+This project uses the **FER-2013 (Facial Expression Recognition 2013)** dataset from Kaggle.
+
+**Dataset Characteristics**:
+- **Total Images**: 35,887
+- **Format**: 48×48 pixel grayscale images
+- **Classes**: 7 emotions
+- **Split**:
+  - Training: 28,709 images
+  - Public Test: 3,589 images
+  - Private Test: 3,589 images
+
+**Class Distribution**:
+| Emotion    | Count | Percentage |
+|------------|-------|------------|
+| Angry      | 4,993 | 13.9%      |
+| Disgust    | 547   | 1.5%       |
+| Fear       | 5,121 | 14.3%      |
+| Happy      | 8,989 | 25.0%      |
+| Sad        | 6,077 | 16.9%      |
+| Surprise   | 4,002 | 11.2%      |
+| Neutral    | 6,198 | 17.3%      |
+
+*Note: Class imbalance is present (especially for Disgust), which should be addressed during training.*
+
+## 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/yourusername/emotion-recognition.git
+cd emotion-recognition
