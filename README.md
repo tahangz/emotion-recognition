@@ -13,6 +13,7 @@ A deep learning system that detects human emotions in real-time using webcam fee
 
 ### FER-2013 Dataset
 This project uses the **FER-2013 (Facial Expression Recognition 2013)** dataset from Kaggle.
+Link : https://www.kaggle.com/datasets/msambare/fer2013
 
 **Dataset Characteristics**:
 - **Total Images**: 35,887
