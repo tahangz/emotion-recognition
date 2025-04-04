@@ -1,7 +1,5 @@
 # Real-Time Emotion Recognition System
 
-![Demo GIF](demo.gif) *(Add a demo GIF showing the system in action)*
-
 A deep learning system that detects human emotions in real-time using webcam feed, built with TensorFlow/Keras and OpenCV.
 
 ## 📌 Features
