@@ -44,3 +44,5 @@ Link : https://www.kaggle.com/datasets/msambare/fer2013
 git clone https://github.com/tahangz/emotion-recognition.git
 cd emotion-recognition
 ```
+2. Install dependencies:
+pip install -r requirements.txt
