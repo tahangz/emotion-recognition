@@ -45,4 +45,5 @@ git clone https://github.com/tahangz/emotion-recognition.git
 cd emotion-recognition
 ```
 2. Install dependencies:
+```bash
 pip install -r requirements.txt
