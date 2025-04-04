@@ -42,5 +42,5 @@ This project uses the **FER-2013 (Facial Expression Recognition 2013)** dataset 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/emotion-recognition.git
+git clone https://github.com/tahangz/emotion-recognition.git
 cd emotion-recognition
